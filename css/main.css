@@ -1,0 +1,99 @@
+/*
+ * Estilos de tu proyecto
+ */
+ .text-uppercase{
+    text-transform: uppercase;
+ }
+ body{
+     background-color: rosybrown; 
+     /*background-image: url(css/docs/fullpage.png)*/ 
+ }
+
+ .logo-white{
+
+    width: 63px;
+    height: 44px;
+    padding-top: 30px;
+    padding-left: 31px;
+}
+.logo{
+  
+}
+
+.list{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+.btn{
+    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 25px;
+    color: white;
+}
+.item{
+    color: white;
+    font-size: 22px;
+    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    display: inline;
+    padding: 12px;
+}
+#main{
+    background-image: url(../assets/imagens/hero.gif);
+    -webkit-background-size: cover;
+        -moz-backface-size:cover;
+        -o-background-size: cover;
+         background: cover 
+
+}
+/* codigos de la seccion phone-white */
+/* seccion text-phone */
+.text-phone{
+    background-color:#52237b;
+    width: 100%;
+    padding: 5px;
+    display: inline-block    
+}
+
+.image-phone{
+    position: relative;
+    width:500px;
+    height:520px;
+    padding-right: 10px;
+}
+
+.box-phone {
+    position: relative;
+    width: 488px;
+    height: 547px;
+    display: inline-block;
+    left: 150px ;
+    top: 35px;
+}
+.text-box{
+    position: relative;
+    top: -85px;
+    left: 150px;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+        
+}
+.subtittle,.text-subtitle{
+    color:wheat;
+    font-size: 1.75rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtitle{
+    font-size:1.75rem;
+}
+
+.text-subtitle{
+    font-size:1.05rem;
+
+}
